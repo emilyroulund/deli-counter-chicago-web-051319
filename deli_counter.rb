@@ -5,7 +5,6 @@ def line (deli)
   else 
     deli.each.with_index do |person, index|
     current_line << " #{index}. #{person}"
-    current_line <<  "#{index + 1}. #{deli.index}" 
 end 
 return current_line
 end 
