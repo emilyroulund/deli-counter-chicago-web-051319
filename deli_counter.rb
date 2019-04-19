@@ -1,8 +1,10 @@
 def line (deli)
+  i = 0
   if deli.size == 0 
     puts  "The line is currently empty." 
-  else 
+  elsif i < deli.length 
     puts "The line is currently: " 
+    i += 1 
 end 
 end 
 
