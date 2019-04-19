@@ -8,7 +8,7 @@ end
 
 def take_a_number (katz_deli, person_name)
   person_name << katz_deli 
-  puts "Welcome, #{person_name}. You are number #{katz_deli.size} in line." 
+  puts "Welcome, #{person_name}. You are number #{katz_deli.length} in line." 
 end 
 
 def now_serving 
