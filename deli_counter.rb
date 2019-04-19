@@ -1,10 +1,10 @@
 def line (deli)
-  current_line ="The line is currently: "
+  current_line ="The line is currently:"
   if deli.size == 0 
     puts  "The line is currently empty." 
   else 
     deli.each.with_index do |person, index|
-    current_line << "#{index + 1}. #{person} "
+    current_line << " #{index + 1}. #{person}"
 end 
 puts current_line
 end 
