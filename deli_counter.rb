@@ -3,8 +3,8 @@ def line (deli)
   if deli.size == 0 
     puts  "The line is currently empty." 
   elsif i < deli.length 
-    puts "The line is currently: #{i + 1}. #{deli.i}" 
-    i += 1 
+    puts "The line is currently: #{ i + 1}. #{deli.i}" 
+    i += 1
 end 
 end 
 
