@@ -4,7 +4,7 @@ def line (deli)
     puts  "The line is currently empty." 
   elsif i < deli.length
     i = 0 
-    current_line <<  "#{ i + 1}. #{deli.i}" 
+    current_line <<  "#{i + 1}. #{deli.i}" 
     i += 1
 end 
 return current_line
